@@ -30,6 +30,13 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  gap: 2rem;
+}
+
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -55,6 +62,35 @@
 
 .nav-link:hover {
   color: var(--text-primary);
+}
+
+.cv-download-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-normal);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.cv-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.cv-download-btn:active {
+  transform: translateY(0);
+}
+
+.btn-text {
+  font-weight: 600;
 }
 
 .mobile-toggle {
@@ -86,6 +122,33 @@
 .mobile-nav-link {
   font-size: 1.1rem;
   font-weight: 500;
+}
+
+.mobile-cv-btn {
+  displcenter {
+    display: none;
+  }
+  .cv-download-btn {
+    padding: 0.5rem 0.8rem;
+  }
+  .btn-textlex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-normal);
+  margin-top: 1rem;
+}
+
+.mobile-cv-btn:active {
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {

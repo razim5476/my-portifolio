@@ -14,7 +14,7 @@ const Projects = () => {
         'Developed Accounting module for financial management and reporting',
         'Created Service Transfer module for seamless inter-branch operations'
       ],
-      tags: ['Python', 'Django', 'DRF', 'PostgreSQL', 'ERP']
+      tags: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PostgreSQL', 'ERP']
     },
     {
       title: 'NEXERA ERP',
@@ -27,7 +27,7 @@ const Projects = () => {
         'Integrated Razorpay payment gateway for seamless online payments',
         'Developed batch-wise inventory system with detailed reporting'
       ],
-      tags: ['Python', 'Django', 'DRF', 'Razorpay', 'PostgreSQL']
+      tags: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PostgreSQL', 'ERP']
     },
     {
       title: 'Hosting & DevOps',
