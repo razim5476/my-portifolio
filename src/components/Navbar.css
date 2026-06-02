@@ -125,13 +125,7 @@
 }
 
 .mobile-cv-btn {
-  displcenter {
-    display: none;
-  }
-  .cv-download-btn {
-    padding: 0.5rem 0.8rem;
-  }
-  .btn-textlex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -152,10 +146,15 @@
 }
 
 @media (max-width: 768px) {
-  .nav-links {
+  .nav-center {
+    display: none;
+  }
+  .cv-download-btn {
+    padding: 0.5rem 0.8rem;
+  }
+  .btn-text {
     display: none;
   }
   .mobile-toggle {
     display: block;
   }
-}
